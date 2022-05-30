@@ -1,0 +1,34 @@
+.singleNote{
+    width: 300px;
+    max-width: 300px;
+    mat-card-title{
+        font-size: 1.2em;
+        float: left;
+        display: flex;
+        align-items: center;
+        div{
+            position: absolute;
+            align-items: center;
+            right: 10px;
+            a mat-icon{
+                font-size: 1em;
+            }
+        }
+
+    }
+    mat-card-content{
+        margin: 1em auto;
+        text-align: center;
+        word-wrap: normal;
+        word-wrap: initial;
+    }
+}
+
+mat-grid-tile:nth-child(even){
+    .singleNote{
+        background-color:#f9ab0033;
+    }   
+}
+.singleNote{
+    background-color: #0000001f;
+}
